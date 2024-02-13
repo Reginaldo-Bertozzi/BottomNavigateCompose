@@ -64,12 +64,14 @@ class MainActivity : ComponentActivity() {
                                 BottomNavItem(
                                     name = "Chat",
                                     route = "chat",
-                                    icon = Icons.Default.Notifications
+                                    icon = Icons.Default.Notifications,
+                                    badgeCount = 23
                                 ),
                                 BottomNavItem(
                                     name = "Settings",
                                     route = "settings",
-                                    icon = Icons.Default.Settings
+                                    icon = Icons.Default.Settings,
+                                    badgeCount = 214
                                 )
                             ),
                             navController = navController,
