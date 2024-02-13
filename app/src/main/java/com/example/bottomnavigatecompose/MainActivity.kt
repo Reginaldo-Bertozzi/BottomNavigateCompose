@@ -34,6 +34,10 @@ import androidx.navigation.compose.rememberNavController
 import com.example.bottomnavigatecompose.ui.theme.BottomNavItem
 import com.example.bottomnavigatecompose.ui.theme.BottomNavigateComposeTheme
 
+/*
+How you can make a bottom navigation view with badge count in jetpack compose.
+https://www.youtube.com/watch?v=4xyRnIntwTo&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=20
+ */
 // Classe principal MainActivity, que estende ComponentActivity.
 class MainActivity : ComponentActivity() {
 
